@@ -283,3 +283,9 @@ Ensures H.stop() stops recording and that visibility events do not restart recor
 ### Patch Changes
 
 - Ensure `console.error` caught stack traces are not missing the top frame.
+
+## 7.3.4
+
+### Patch Changes
+
+- Track identify metadata in the mixpanel integration as a tracked event.
